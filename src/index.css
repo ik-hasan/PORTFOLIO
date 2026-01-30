@@ -20,7 +20,7 @@
   border-right: 0.15em solid #885CF6;
   white-space: nowrap;
   width: 0;
-  animation: typing 3s steps(20, end) forwards, blink-caret 0.75s step-end 4;
+  animation: typing 3s steps(20, end) forwards, blink-caret 1s step-end infinite;
 }   
 @keyframes typing {
   from { width: 0; }
