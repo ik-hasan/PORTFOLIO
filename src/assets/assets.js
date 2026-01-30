@@ -97,7 +97,7 @@ export const projects = [
     tech: ["React.js", "Tailwind CSS", "Framer Motion","EmailJs"],
     icons: [FaReact, FaCloud],
     demo: "#home",
-    code: "https://github.com/ik-hasan?tab=repositories",
+    code: "https://github.com/ik-hasan/PORTFOLIO",
   },
 ];
 
