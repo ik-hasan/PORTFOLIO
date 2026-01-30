@@ -102,7 +102,7 @@ export const projects = [
       "CPU Architecture",
       "GNUPlot"
     ],
-    demo: "", // CLI based, so optional
+    demo: "", 
     code: "https://github.com/ik-hasan/RISC-V-Simulator",
   },
    {
