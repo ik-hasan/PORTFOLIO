@@ -10,6 +10,7 @@ import projectImg1 from '../assets/assistant.webp';
 import projectImg2 from '../assets/botKR.jpg';
 import projectImg3 from '../assets/world.png';
 import projectImg4 from '../assets/portfolio.jpg';
+import riscv from '../assets/riscv.png';
 
 
 
@@ -68,7 +69,6 @@ export const projects = [
     description: "A smart virtual assistant system with voice/text interaction, task automation, real-time responses, and AI-powered features for efficient user support.",
     image: projectImg1,
     tech: ["React.js", "Node.js", "MongoDB", "Express.js","Tailwind","JWT","Gemini API","WebSpeech API","Render"],
-    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
     demo: "https://virtualassistant-cuzv.onrender.com",
     code: "https://github.com/ik-hasan/VIRTUAL-ASSISTANT",
   },
@@ -77,7 +77,6 @@ export const projects = [
     description: "an AI assistant that converts unstructured meeting conversations into actionable insights using GenAI and LLMs.",
     image: projectImg2,
     tech: ["React.js", "FastAPI", "Tailwind CSS", "Python","Render","Vercel","Open Router","OpenAi","Assembly API"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
     demo: "https://krai-meeting-bot-edjc.vercel.app/",
     code: "https://github.com/ik-hasan/KR.AI_MEETING_BOT",
   },
@@ -86,19 +85,35 @@ export const projects = [
     description: "An interactive World Atlas web application that provides detailed country information with a user-friendly interface.",
     image: projectImg3,
     tech: ["React.js", "Vite","Tailwind", "Countries API", "Netlify"],
-    icons: [FaReact, FaDatabase],
     demo: "https://world-atlas-ik.netlify.app/",
     code: "https://github.com/ik-hasan/World_Atlas_IK",
   },
   {
+    title: "RISC-V Simulator",
+    description: "A C++ based RISC-V simulator that parses assembly programs and simulates a 5-stage CPU pipeline (IF, ID, EX, MEM, WB) with register, memory, and branch handling.",
+    image: riscv,
+    tech: [
+      "C++",
+      "RISC-V ISA",
+      "Assembly Language",
+      "Data Structures",
+      "OOPS",
+      "File Handling",
+      "CPU Architecture",
+      "GNUPlot"
+    ],
+    demo: "", // CLI based, so optional
+    code: "https://github.com/ik-hasan/RISC-V-Simulator",
+  },
+   {
     title: "Personal Portfolio",
     description: "A personal portfolio to showcase projects, skills, and blogs.",
     image: projectImg4,
     tech: ["React.js", "Tailwind CSS", "Framer Motion","EmailJs"],
-    icons: [FaReact, FaCloud],
     demo: "#home",
     code: "https://github.com/ik-hasan/PORTFOLIO",
   },
+
 ];
 
 
