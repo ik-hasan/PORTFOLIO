@@ -28,6 +28,7 @@ const Projects = () => {
         <div className="text-center mt-12">
           <a
             href="https://github.com/ik-hasan?tab=repositories"
+            target="_blank"
             className="inline-flex items-center px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 duration-300"
           >
             <span className="mr-2"> View More Projects </span>

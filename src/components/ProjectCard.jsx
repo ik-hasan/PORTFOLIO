@@ -29,6 +29,7 @@ const ProjectCard = ({ title, description, image, tech, code,demo }) => {
           </a>
           <a
             href={code}
+            target="_blank"
             className="flex-1 text-center px-4 py-2 border border-purple font-medium rounded-lg hover:bg-purple/20 transition duration-300"
           >
             Code

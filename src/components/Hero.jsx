@@ -29,7 +29,8 @@ const Hero = () => {
 
           <div className="flex space-x-4">
             <a
-              href="https://drive.google.com/file/d/1Ir4Q4fTrEFmjllTL7xgwntjkmAQXbIaN/view"
+              href="/public/resume.pdf"
+              target="_blank"
               className="px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
             >
               See Resume

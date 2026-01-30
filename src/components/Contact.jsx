@@ -173,6 +173,7 @@ const Contact = () => {
 
                 <a
                   href="https://www.linkedin.com/in/ikramul-hasan/"
+                  target="_blank"
                   className="group relative w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple hover:text-white transition duration-300 hover:-translate-y-1"
                 >
                   <FaLinkedin />
@@ -184,6 +185,7 @@ const Contact = () => {
 
                 <a
                   href="https://www.instagram.com/_ikramul_hasan__?igsh=MW9wcXFhb3M2ejBibg=="
+                  target="_blank"
                   className="group relative w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple hover:text-white transition duration-300 hover:-translate-y-1"
                 >
                   <FaInstagram />
@@ -195,6 +197,7 @@ const Contact = () => {
 
                 <a
                   href="https://leetcode.com/u/ik_hasan/"
+                  target="_blank"
                   className="group relative w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-purple hover:text-white transition duration-300 hover:-translate-y-1"
                 >
                   <FaCode />
