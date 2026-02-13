@@ -69,8 +69,8 @@ export const projects = [
     description: "A smart virtual assistant system with voice/text interaction, task automation, real-time responses, and AI-powered features for efficient user support.",
     image: projectImg1,
     tech: ["React.js", "Node.js", "MongoDB", "Express.js","Tailwind","JWT","Gemini API","WebSpeech API","Render"],
-    demo: "https://virtualassistant-cuzv.onrender.com",
-    code: "https://github.com/ik-hasan/VIRTUAL-ASSISTANT",
+    demo: "https://iks-assistant.onrender.com",
+    code: "https://github.com/ik-hasan/VIRTUAL_ASSISTANT",
   },
   {
     title: "KR.AI– Autonomous Meeting Intelligence Agent",
