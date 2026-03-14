@@ -5,7 +5,7 @@ import { TbSql } from "react-icons/tb";
 
 
 
-import profileImg from '../assets/portfolio_pic.jpeg';
+import profileImg from '../assets/portfolio_pic.jpg';
 import projectImg1 from '../assets/assistant.webp';
 import projectImg2 from '../assets/botKR.jpg';
 import projectImg3 from '../assets/world.png';
