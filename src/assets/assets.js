@@ -5,12 +5,13 @@ import { TbSql } from "react-icons/tb";
 
 
 
-import profileImg from '../assets/portfolio_pic.jpg';
+import profileImg from '../assets/portfolio_pic.jpeg';
 import projectImg1 from '../assets/assistant.webp';
 import projectImg2 from '../assets/botKR.jpg';
 import projectImg3 from '../assets/world.png';
 import projectImg4 from '../assets/portfolio.jpg';
 import riscv from '../assets/riscv.png';
+import digital_signal from '../assets/digital_signal.png';
 
 
 
@@ -105,7 +106,18 @@ export const projects = [
     demo: "https://github.com/ik-hasan/RISC-V-Simulator", 
     code: "https://github.com/ik-hasan/RISC-V-Simulator",
   },
-   {
+  {
+    title: "Digital Signal Generator",
+    description: "A C++ based console application that encodes, visualizes, and decodes digital signals using various line encoding schemes. Also supports analog-to-digital conversion via PCM and Delta Modulation.",
+    image: digital_signal,
+    tech: [
+      "C++",
+      "STL"
+    ],
+    demo: "https://github.com/ik-hasan/Data-Communication---Digital-Signal-Generator", 
+    code: "https://github.com/ik-hasan/Data-Communication---Digital-Signal-Generator",
+  },
+  {
     title: "Personal Portfolio",
     description: "A personal portfolio to showcase projects, skills, and blogs.",
     image: projectImg4,
