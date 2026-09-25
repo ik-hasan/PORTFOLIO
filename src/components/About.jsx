@@ -30,12 +30,21 @@ const About = () => {
           >
             <div className="w-full rounded-2xl p-8">
               <p className="text-gray-300 mb-6">
-                I’m a passionate full-stack developer and a pre-final year B.Tech student in Information Technology at NIT Srinagar. I enjoy building modern, scalable web applications and solving complex problems using efficient algorithms and data structures. My journey started with core programming and web fundamentals and has evolved into developing full-stack applications using modern technologies.
+              I’m a final-year B.Tech student in Information Technology at NIT Srinagar 
+              with hands-on experience in software development and scalable systems. 
+              I have a solid foundation in programming, data structures, databases, 
+              operating systems, and object-oriented design.
+              </p>
+              <p className="text-gray-300 mb-6">
+              Secured All India Rank 1 at the Flipr Generative AI National Hackathon and Global Rank 20 at HackerRank Infinity Hacks, competing against 64 teams and 1,500+ teams respectively, with solutions spanning Generative AI, RAG, knowledge graphs, and intelligent systems.
               </p>
               <p className="text-gray-300 mb-12 ">
-                When I'm not coding, you can find me exploring new technologies,
-                contributing to open-source projects, and working on real-world projects. I believe in continuous learning and pushing the boundaries of what's possible on the
-                web.
+              My current focus is on Low-Level Design and Distributed Systems,
+               with an emphasis on designing scalable, reliable, and efficient
+                software.
+                I’m currently exploring software engineering opportunities 
+                where I can apply my skills, learn from experienced engineers, 
+                and contribute to real-world products.
               </p>
             </div>
           </motion.div>

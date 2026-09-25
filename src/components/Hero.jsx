@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import assets from '../assets/assets'
+import resume from "./resume_ikramul.pdf";
 const Hero = () => {
   return (
     <motion.div
@@ -19,17 +20,18 @@ const Hero = () => {
           </h1>
 
           <h2 className="text-2xl md:text-4xl font-semibold mb-6 typewriter">
-            Full Stack Developer
+            Software Developer
           </h2>
 
           <p className="text-lg text-gray-300 mb-8">
-            I create stunning web experiences with modern technologies and
-            innovative design.
+          CODE WITH PURPOSE,
+            <br></br>
+            DESIGN WITH PRECISION.
           </p>
 
           <div className="flex space-x-4">
             <a
-              href="/resume.pdf"
+              href={resume}
               target="_blank"
               className="px-6 py-3 bg-purple rounded-lg font-medium hover:bg-purple-700 transition duration-300"
             >
